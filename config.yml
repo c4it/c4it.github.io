@@ -1,0 +1,41 @@
+baseURL: https://cannons.dev
+languageCode: en-us
+title: Cait
+theme: PaperMod
+enableEmoji: true
+enableInlineShortcodes: true
+
+params:
+    title: Cait
+    description: My blog
+    keywords: [blog]
+    author: c4it
+    DateFormat: "1 Jan 2006"
+    ShowReadingTime: true
+    ShowBreadCrumbs: true
+    
+    homeInfoParams:
+        Title: "Hi there 🐢 "
+        Content: blog and stuff...
+
+    socialIcons: # optional
+        - name: "github"
+          url: "https://github.com/c4it"
+        - name: "linkedin"
+          url: "https://www.linkedin.com/in/caitlin-cannon-444758176/"
+        - name: "email"
+          url: "mailto:cait@cannons.dev"
+        - name: "goodreads"
+          url: "https://www.goodreads.com/user/show/6866745-cait"
+        - name: "spotify"
+          url: "https://open.spotify.com/user/_cait"
+menu:
+    main:
+        - identifier: archives
+          name: archives
+          url: /archives/
+          weight: 10
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
